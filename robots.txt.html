@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="no-js" lang="de">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	Copyright Universität Paderborn
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2017 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="">
+<link rel="shortcut icon" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Icons/favicon.ico" type="image/x-icon">
+
+<meta property="og:description" content="FEHLERSEITE - 404
+Zur Homepage
+
+Bedauerlicherweise konnte die angeforderte Seite nicht gefunden werden. 
+Das könnte verschiedene Ursachen haben. Vielleicht
+haben Sie eine falsche URL in Ihren Browser eingegeben, die angeforderte Seite wurde verschoben oder gelöscht oderist durch einen Login geschützt.
+Wenn Sie sich sicher sind, dass ein..." />
+<meta name="description" content="FEHLERSEITE - 404
+Zur Homepage
+
+Bedauerlicherweise konnte die angeforderte Seite nicht gefunden werden. 
+Das könnte verschiedene Ursachen haben. Vielleicht
+haben Sie eine falsche URL in Ihren Browser eingegeben, die angeforderte Seite wurde verschoben oder gelöscht oderist durch einen Login geschützt.
+Wenn Sie sich sicher sind, dass ein..." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.eim.uni-paderborn.de/404-fehlerseite/" />
+<meta property="og:title" content="Fakultät für Elektrotechnik, Informatik und Mathematik - 404 Fehlerseite (Universität Paderborn)" />
+<meta property="upb:pageid" content="24592" />
+<meta property="upb:changed" content="17.10.2017 11:58:25" />
+<meta property="upb:changedts" content="1508234305" />
+<meta property="og:image" content="https://www.eim.uni-paderborn.de/fileadmin/fakultaet/Design/Sliderbild/full_header_EIM.jpg" />
+<meta name="generator" content="TYPO3 CMS">
+<meta name="copyright" content="Universität Paderborn">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/video.js/dist/video-js.min.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/foundation/css/normalize.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/stylesheets/app.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/stylesheets/upb.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/magnific/magnific-popup.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upbperson/Resources/Public/css/upbperson.css?1517818534" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/stylesheets/shariff.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/stylesheets/color-3.css?1517818519" media="all">
+<link rel="stylesheet" type="text/css" href="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/stylesheets/gallery.css?1517818519" media="all">
+
+
+
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/jquery/dist/jquery.min.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/modernizr/modernizr.js?1517818519" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+/*_scriptCode*/
+
+			// decrypt helper function
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+			return String.fromCharCode(n);
+		}
+			// decrypt string
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	// 0-9 . , - + / :
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	// A-Z @
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	// a-z
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+			// decrypt spam-protected emails
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,-2);
+		}
+		
+
+/*]]>*/
+</script>
+
+<link rel="apple-touch-icon" type="image/png" href="EXT:upb/Resources/Public/Icons/favicon.ico" ><title>Fakultät für Elektrotechnik, Informatik und Mathematik&nbsp; - &nbsp;404 Fehlerseite&nbsp;(Universit&auml;t Paderborn)</title>
+</head>
+<body>
+
+
+
+
+
+
+
+		
+		
+			
+				
+				
+			
+		
+		
+		
+		
+		
+	
+
+
+
+
+
+<div class="js-error">
+    <div class="row"><div class="small-1 columns">
+        <img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/ausrufezeichen-gross.png" alt="Achtung:"/>
+    </div>
+        <div class="small-11 columns">
+            <p>
+                <strong>Sie haben Javascript deaktiviert!</strong><br />
+                Sie haben versucht eine Funktion zu nutzen, die nur mit Javascript möglich ist. Um sämtliche Funktionalitäten unserer Internetseite zu nutzen, aktivieren Sie bitte Javascript in Ihrem Browser.
+            </p>
+        </div>
+    </div>
+</div>
+
+	
+	
+		
+		
+		
+		
+		
+	
+	
+
+
+<div class="topcontent">
+<header>
+    <!-- Das Menü oberhalb des Logos wird nur bei Auflösung > Tablet angezeigt -->
+    <div class="row topmenu">
+        <div class="small-12 columns show-for-medium-up hide-for-print">
+            <!-- SUB NAVIGATION TOP RIGHT -->
+            <ul class="sub-nav medium-list-right ">
+                <li><a href="https://www.eim.uni-paderborn.de/#content" id="skiptocontent" tabindex="0" accesskey="1">Zum Inhalt springen</a></li>
+                             
+	                
+	                <li>
+	                    <a href="https://www.eim.uni-paderborn.de/#" class=" quickaccess">Schnellzugriff</a><br>
+	                    <ol id="quickacces-medium-up" class="menubackground dropdown-target quickaccess-menu">                      
+	                        <li><a href="http://www.uni-paderborn.de/quicklink/aktuelles" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkNewsClick', '']);">Aktuelles</a></li><li><a href="http://www.uni-paderborn.de/quicklink/ub" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkUBClick', '']);">Bibliothek</a></li><li><a href="http://www.uni-paderborn.de/quicklink/paul" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkPaulClick', '']);">PAUL</a></li><li><a href="http://www.uni-paderborn.de/quicklink/personen" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkPersonenClick', '']);">Personenverzeichnis</a></li><li><a href="http://www.uni-paderborn.de/quicklink/termine" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkTermineClick', '']);">Termine und Fristen</a></li><li><a href="http://www.uni-paderborn.de/quicklink/mensa" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkMensaClick', '']);">Mensa/Speiseplan</a></li><li><a href="http://www.uni-paderborn.de/quicklink/koala" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkKoalaClick', '']);">koaLA</a></li><li><a href="http://www.uni-paderborn.de/quicklink/panda" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkPandaClick', '']);">PANDA</a></li>
+	                    </ol>
+	                </li>
+	                           
+	        
+                <li>
+                	<a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/geschaeftsstelle/" onclick="_paq.push(['trackEvent', 'contact', 'headerContactClick', '11']);">Kontakt</a>
+          	</li>
+                <li class="languages">
+                	<a href="robots.txt.html" class="active">DE</a><span class="divider">&nbsp;&#124;&nbsp;</span><a href="https://www.eim.uni-paderborn.de/en/404-fehlerseite/">EN</a>
+                </li>
+
+		             
+	        
+                <li class="has-form hide-for-small search-input">
+                    <div class="row">
+                        <form id="searchbox_000811303303555764227:ajae23nnrte" action="https://www.google.com/cse" accept-charset="utf-8">
+                        	<input type="hidden" name="cx" value="000811303303555764227:ajae23nnrte" />
+  				<input type="hidden" name="cof" value="FORID:0" />
+                            <div class="small-10 columns">
+                                <div class="kill-right-margin">
+                                    <input type="text" placeholder="Suchen (Google)" title="Suchen (Google)" name="q">
+                                </div>
+                            </div>
+                            <div class="small-2 columns">
+                                <div class="kill-left-margin">
+                                    <button type="submit" class="postfix button">
+                                        <img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/lupe.png" alt="Suche starten"/>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <script type="text/javascript">
+  				var form = document.getElementById("searchbox_000811303303555764227:ajae23nnrte");
+  				form.action='https://www.eim.uni-paderborn.de/suche/';
+  				form.cof.value='FORID:11';
+			</script>
+                    </div>
+                </li>
+                
+                <!-- /SUB NAVIGATION TOP RIGHT -->
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Logozeile mit optionalem Platz für einen Titel der rechts erscheint -->
+    <div class="row">
+        <div class=" small-12 medium-6 columns">
+            <a href="https://www.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'LogoClick', 'Link www.uni-paderborn.de/']);">
+                <img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/logo.png" alt="Universität Paderborn" id="logo">
+            </a>
+
+        </div>
+        <div class=" small-12 medium-6 columns">
+            <span class="pagetitle"><a href="https://www.eim.uni-paderborn.de/">Fakultät für Elektrotechnik, Informatik und Mathematik</a></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="trennlinie"></div>
+    </div>
+    <div class="row quickacces-mobile show-for-small-only">
+        <!-- SUB NAVIGATION TOP RIGHT -->
+        <ul class="sub-nav">
+        	             
+	                
+		            <li>
+		                <a href="https://www.eim.uni-paderborn.de/#" class="quickaccess">Schnellzugriff</a><br>
+		                <ol id="mobile-quick" class="menubackground dropdown-target quickaccess-menu">
+		                    <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
+		                    <li><a href="http://www.uni-paderborn.de/quicklink/aktuelles" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkNewsClick', '']);">Aktuelles</a></li><li><a href="http://www.uni-paderborn.de/quicklink/ub" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkUBClick', '']);">Bibliothek</a></li><li><a href="http://www.uni-paderborn.de/quicklink/paul" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkPaulClick', '']);">PAUL</a></li><li><a href="http://www.uni-paderborn.de/quicklink/personen" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkPersonenClick', '']);">Personenverzeichnis</a></li><li><a href="http://www.uni-paderborn.de/quicklink/termine" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkTermineClick', '']);">Termine und Fristen</a></li><li><a href="http://www.uni-paderborn.de/quicklink/mensa" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkMensaClick', '']);">Mensa/Speiseplan</a></li><li><a href="http://www.uni-paderborn.de/quicklink/koala" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkKoalaClick', '']);">koaLA</a></li><li><a href="http://www.uni-paderborn.de/quicklink/panda" onclick="_paq.push(['trackEvent', 'navigation', 'quicklinkPandaClick', '']);">PANDA</a></li>
+		                </ol>
+		            </li>
+		            <li>
+                		<a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/geschaeftsstelle/" onclick="_paq.push(['trackEvent', 'contact', 'headerContactClick', '11']);">Kontakt</a>
+            		    </li>
+		         
+				    	
+            
+            <li class="languages">
+		<a href="robots.txt.html" class="active">DE</a><span class="divider">&nbsp;&#124;&nbsp;</span><a href="https://www.eim.uni-paderborn.de/en/404-fehlerseite/">EN</a>
+            </li>
+
+            <li class="has-form hide-for-small search-input">
+                <div class="row">
+                    <form id="searchbox_000811303303555764227:ajae23nnrte-3" action="https://www.google.com/cse" accept-charset="utf-8">
+                    	<input type="hidden" name="cx" value="000811303303555764227:ajae23nnrte" />
+  			<input type="hidden" name="cof" value="FORID:0" />
+                        <div class="small-10 columns">
+                            <div class="kill-right-margin">
+                                <input type="text" placeholder="Suche..." title="Suche" name="q">
+                            </div>
+                        </div>
+                        <div class="small-2 columns">
+                            <div class="kill-left-margin">
+                                <button type="submit" class="postfix button">
+                                    <img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/lupe.png" alt="Suche starten"/>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <script type="text/javascript">
+  				var form = document.getElementById("searchbox_000811303303555764227:ajae23nnrte-3");
+  				form.action='https://www.eim.uni-paderborn.de/suche/';
+  				form.cof.value='FORID:11';
+		    </script>
+                </div>
+            </li>
+            <!-- /SUB NAVIGATION TOP RIGHT -->
+        </ul>
+
+    </div>
+</header>
+<div class="mainmenubackground hide-for-print">
+    <div class="row">
+        <div class="medium-12 columns">
+            <nav class="">
+            <!-- MAIN NAVIGATION (main_nav) -->
+            
+                <ul class="hide-for-small mediumnavi mainmenu">
+                
+                	<li>Studium<div class="submenu small-12 columns" ><div class="menubackground"><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/studiengaenge/" class="mainlink" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuDirectToPageClick', 'Link Studium']);">Direkt zur Seite&nbsp;Studium</a><ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 count-5"><li>Studienangebot<ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/studiengaenge/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Studiengänge']);">Studiengänge</a></li><li><a href="http://zsb.uni-paderborn.de/studienanfaengerinnen/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Studienstart']);">Studienstart</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/elitefoerderung/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Eliteförderung']);">Eliteförderung</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/mentoringprogramm/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Mentoringprogramm']);">Mentoringprogramm</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/auslandssemester/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Auslandssemester']);">Auslandssemester</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/weierstrass-preis/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Weierstraß-Preis']);">Weierstraß-Preis</a></li></ul></li><li>Studieninteressierte<ul><li><a href="https://www.eim.uni-paderborn.de/coolmint2/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Schülerangebot MINT@UniPB']);">Schülerangebot MINT@UniPB</a></li><li><a href="https://www.uni-paderborn.de/universitaet/fgi/look-upb/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Look upb']);">Look upb</a></li><li><a href="https://www.uni-paderborn.de/universitaet/fgi/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Frauen gestallten die Informationsgesellschaft']);">Frauen gestallten die Informationsgesellschaft</a></li><li><a href="http://www.leben-in-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Leben in Paderborn']);">Leben in Paderborn</a></li><li><a href="http://zsb.uni-paderborn.de/wohnen/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Wohnen']);">Wohnen</a></li></ul></li><li>Beratung und Unterstützung<ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/beratung-und-unterstuetzung/lernzentren/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Lernzentren']);">Lernzentren</a></li><li><a href="http://zsb.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Zentrale Studienberatung (ZSB)']);">Zentrale Studienberatung (ZSB)</a></li><li><a href="http://www.uni-paderborn.de/en/zv/3-3/service-center/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Service Center']);">Service Center</a></li><li><a href="http://plaz.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Zentrum für Bildungsforschung und Lehrerbildung (PLAZ)']);">Zentrum für Bildungsforschung und Lehrerbildung (PLAZ)</a></li><li><a href="http://zsb.uni-paderborn.de/studentische-beratung/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Studentische Beratung']);">Studentische Beratung</a></li><li><a href="http://www.uni-paderborn.de/universitaet/familiengerechte-hochschule/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Kind und Familie']);">Kind und Familie</a></li><li><a href="http://zsb.uni-paderborn.de/studium-mit-beeintraechtigung/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Studium mit Beeinträchtigung']);">Studium mit Beeinträchtigung</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/geschaeftsstelle/verbesserungsvorschlaege-und-beschwerdemoeglichkeiten/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Beschwerden']);">Beschwerden</a></li></ul></li><li>Kosten und Finanzierung<ul><li><a href="http://zsb.uni-paderborn.de/kosten-im-studium/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Kosten im Studium']);">Kosten im Studium</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/kosten-und-finanzierung/bafoeg/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link BAföG']);">BAföG</a></li><li><a href="http://zsb.uni-paderborn.de/stipendien/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Stipendien']);">Stipendien</a></li><li><a href="http://zsb.uni-paderborn.de/en/jobben-waehrend-des-studiums/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Jobben während des Studiums']);">Jobben während des Studiums</a></li></ul></li></ul></div></div></li><li>Forschung<div class="submenu small-12 columns" ><div class="menubackground"><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/" class="mainlink" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuDirectToPageClick', 'Link Forschung']);">Direkt zur Seite&nbsp;Forschung</a><ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2 count-2"><li>Forschung im Profil<ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/professoren-und-ihre-fachgebiete/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Professor*innen und ihre Fachgebiete']);">Professor*innen und ihre Fachgebiete</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/kolloquien/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Kolloquien']);">Kolloquien</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/forschung-insight/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Forschung inSight']);">Forschung inSight</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/weierstrass-vorlesung/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Weierstraß-Vorlesung']);">Weierstraß-Vorlesung</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/ehrendoktoren/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Ehrendoktoren']);">Ehrendoktoren</a></li></ul></li><li>Forschungsverbände<ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschungsverbaende/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Forschungsverbände']);">Forschungsverbände</a></li></ul></li></ul></div></div></li><li>Fakultät<div class="submenu small-12 columns" ><div class="menubackground"><a href="https://www.eim.uni-paderborn.de/" class="mainlink" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuDirectToPageClick', 'Link Fakultät']);">Direkt zur Seite&nbsp;Fakultät</a><ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2 count-2"><li>Über die Fakultät<ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/jahresberichte/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Jahresberichte']);">Jahresberichte</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/forschung-insight/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Forschung inSight']);">Forschung inSight</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/professoren-und-ihre-fachgebiete/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Professor*innen und ihre Fachgebiete']);">Professor*innen und ihre Fachgebiete</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/historie-der-fakultaet/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Historie der Fakultät']);">Historie der Fakultät</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/rankings/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Rankings']);">Rankings</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/veranstaltungen/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Veranstaltungen']);">Veranstaltungen</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/anreiselageplan/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Anreise / Lageplan']);">Anreise / Lageplan</a></li></ul></li><li>Organisation<ul><li><a href="https://www.eim.uni-paderborn.de/dekanat/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Dekanat']);">Dekanat</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/fakultaetsrat/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Fakultätsrat']);">Fakultätsrat</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/geschaeftsstelle/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Geschäftsstelle']);">Geschäftsstelle</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/gleichstellungsbeauftragte/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Gleichstellungsbeauftragte']);">Gleichstellungsbeauftragte</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/fachschaften/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Fachschaften']);">Fachschaften</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/ordnungen/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Ordnungen']);">Ordnungen</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/gremien/" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Gremien']);">Gremien</a></li></ul></li></ul></div></div></li><li>Institute<div class="submenu small-12 columns" ><div class="menubackground"><a href="https://www.eim.uni-paderborn.de/fakultaet/institute/" class="mainlink" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuDirectToPageClick', 'Link Institute']);">Direkt zur Seite&nbsp;Institute</a><ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 count-1"><li>Institute<ul><li><a href="http://www.ei.upb.de" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Institut für Elektrotechnik und Informationstechnik']);">Institut für Elektrotechnik und Informationstechnik</a></li><li><a href="http://www.cs.upb.de" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Institut für Informatik']);">Institut für Informatik</a></li><li><a href="http://math.uni-paderborn.de" onclick="_paq.push(['trackEvent', 'navigation', 'MainMenuLevel3Click', 'Link Institut für Mathematik']);">Institut für Mathematik</a></li></ul></li></ul></div></div></li>
+
+                </ul>
+            
+            <ul class="show-for-small-only mainmenu">
+            	
+	                <li class="menu" id="menu">
+	                    <a>Menü</a>
+	
+	                    <div class="mobile-navi small-12 columns" id="menu-nav">
+	                        <div class="menubackground">
+	                            <div class="clearfix">
+	                                <a href="https://www.eim.uni-paderborn.de/#" class="close-all">
+	                                    alle Untermenüs
+	                                    schließen</a>
+	                            </div>
+	                            <ul>
+	                            	<li class="toplevel"><img class="mobile-top-arrow" src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/linkpfeil_weiss.png" alt="" /><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/studiengaenge/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel1Click', 'Link Studium']);">Studium</a><a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li>Studienangebot<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/studiengaenge/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Studiengänge']);">Studiengänge</a></li><li><a href="http://zsb.uni-paderborn.de/studienanfaengerinnen/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Studienstart']);">Studienstart</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/elitefoerderung/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Eliteförderung']);">Eliteförderung</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/mentoringprogramm/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Mentoringprogramm']);">Mentoringprogramm</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/auslandssemester/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Auslandssemester']);">Auslandssemester</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/weierstrass-preis/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Weierstraß-Preis']);">Weierstraß-Preis</a></li></ul></li><li>Studieninteressierte<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/coolmint2/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Schülerangebot MINT@UniPB']);">Schülerangebot MINT@UniPB</a></li><li><a href="https://www.uni-paderborn.de/universitaet/fgi/look-upb/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Look upb']);">Look upb</a></li><li><a href="https://www.uni-paderborn.de/universitaet/fgi/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Frauen gestallten die Informationsgesellschaft']);">Frauen gestallten die Informationsgesellschaft</a></li><li><a href="http://www.leben-in-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Leben in Paderborn']);">Leben in Paderborn</a></li><li><a href="http://zsb.uni-paderborn.de/wohnen/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Wohnen']);">Wohnen</a></li></ul></li><li>Beratung und Unterstützung<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/beratung-und-unterstuetzung/lernzentren/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Lernzentren']);">Lernzentren</a></li><li><a href="http://zsb.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Zentrale Studienberatung (ZSB)']);">Zentrale Studienberatung (ZSB)</a></li><li><a href="http://www.uni-paderborn.de/en/zv/3-3/service-center/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Service Center']);">Service Center</a></li><li><a href="http://plaz.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Zentrum für Bildungsforschung und Lehrerbildung (PLAZ)']);">Zentrum für Bildungsforschung und Lehrerbildung (PLAZ)</a></li><li><a href="http://zsb.uni-paderborn.de/studentische-beratung/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Studentische Beratung']);">Studentische Beratung</a></li><li><a href="http://www.uni-paderborn.de/universitaet/familiengerechte-hochschule/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Kind und Familie']);">Kind und Familie</a></li><li><a href="http://zsb.uni-paderborn.de/studium-mit-beeintraechtigung/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Studium mit Beeinträchtigung']);">Studium mit Beeinträchtigung</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/geschaeftsstelle/verbesserungsvorschlaege-und-beschwerdemoeglichkeiten/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Beschwerden']);">Beschwerden</a></li></ul></li><li>Kosten und Finanzierung<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="http://zsb.uni-paderborn.de/kosten-im-studium/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Kosten im Studium']);">Kosten im Studium</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/kosten-und-finanzierung/bafoeg/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link BAföG']);">BAföG</a></li><li><a href="http://zsb.uni-paderborn.de/stipendien/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Stipendien']);">Stipendien</a></li><li><a href="http://zsb.uni-paderborn.de/en/jobben-waehrend-des-studiums/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Jobben während des Studiums']);">Jobben während des Studiums</a></li></ul></li></ul></li><li class="toplevel"><img class="mobile-top-arrow" src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/linkpfeil_weiss.png" alt="" /><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel1Click', 'Link Forschung']);">Forschung</a><a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li>Forschung im Profil<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/professoren-und-ihre-fachgebiete/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Professor*innen und ihre Fachgebiete']);">Professor*innen und ihre Fachgebiete</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/kolloquien/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Kolloquien']);">Kolloquien</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/forschung-insight/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Forschung inSight']);">Forschung inSight</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/weierstrass-vorlesung/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Weierstraß-Vorlesung']);">Weierstraß-Vorlesung</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/ehrendoktoren/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Ehrendoktoren']);">Ehrendoktoren</a></li></ul></li><li>Forschungsverbände<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschungsverbaende/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Forschungsverbände']);">Forschungsverbände</a></li></ul></li></ul></li><li class="toplevel"><img class="mobile-top-arrow" src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/linkpfeil_weiss.png" alt="" /><a href="https://www.eim.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel1Click', 'Link Fakultät']);">Fakultät</a><a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li>Über die Fakultät<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/jahresberichte/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Jahresberichte']);">Jahresberichte</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/forschung-insight/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Forschung inSight']);">Forschung inSight</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/forschung-im-profil/professoren-und-ihre-fachgebiete/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Professor*innen und ihre Fachgebiete']);">Professor*innen und ihre Fachgebiete</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/historie-der-fakultaet/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Historie der Fakultät']);">Historie der Fakultät</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/rankings/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Rankings']);">Rankings</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/veranstaltungen/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Veranstaltungen']);">Veranstaltungen</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/ueber-die-fakultaet/anreiselageplan/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Anreise / Lageplan']);">Anreise / Lageplan</a></li></ul></li><li>Organisation<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="https://www.eim.uni-paderborn.de/dekanat/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Dekanat']);">Dekanat</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/fakultaetsrat/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Fakultätsrat']);">Fakultätsrat</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/geschaeftsstelle/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Geschäftsstelle']);">Geschäftsstelle</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/gleichstellungsbeauftragte/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Gleichstellungsbeauftragte']);">Gleichstellungsbeauftragte</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/fachschaften/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Fachschaften']);">Fachschaften</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/ordnungen/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Ordnungen']);">Ordnungen</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/fakultaet/organisation/gremien/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Gremien']);">Gremien</a></li></ul></li></ul></li><li class="toplevel"><img class="mobile-top-arrow" src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/linkpfeil_weiss.png" alt="" /><a href="https://www.eim.uni-paderborn.de/fakultaet/institute/" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel1Click', 'Link Institute']);">Institute</a><a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li>Institute<a href="https://www.eim.uni-paderborn.de/#" class="dropdown-pfeil">&nbsp;</a><ul><li><a href="http://www.ei.upb.de" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Institut für Elektrotechnik und Informationstechnik']);">Institut für Elektrotechnik und Informationstechnik</a></li><li><a href="http://www.cs.upb.de" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Institut für Informatik']);">Institut für Informatik</a></li><li><a href="http://math.uni-paderborn.de" onclick="_paq.push(['trackEvent', 'navigation', 'mobileMainMenuLevel3Click', 'Link Institut für Mathematik']);">Institut für Mathematik</a></li></ul></li></ul></li>    
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </li>
+	        
+                <li class="suche"><a title="Suche öffnen"></a>
+
+                    <div class="mobile-navi small-12 columns">
+                        <div class="menubackground">
+                            <div class="row has-form search-input">
+                                <form id="searchbox_000811303303555764227:ajae23nnrte-4" action="https://www.google.com/cse" accept-charset="utf-8">
+                                	<input type="hidden" name="cx" value="000811303303555764227:ajae23nnrte" />
+  					<input type="hidden" name="cof" value="FORID:0" />
+                                    <div class="small-11 columns">
+                                        <div class="kill-right-margin">
+                                            <input type="text" placeholder="Suchen (Google)" title="Suche" name="q">
+                                        </div>
+                                    </div>
+                                    <div class="small-1 columns">
+                                        <div class="kill-left-margin">
+                                            <button type="submit" class="postfix button">
+                                                <img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/lupe.png" alt="Suche starten"/>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <script type="text/javascript">
+  					var form = document.getElementById("searchbox_000811303303555764227:ajae23nnrte-4");
+  					form.action='https://www.eim.uni-paderborn.de/suche/';
+  					form.cof.value='FORID:11';
+				</script>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+	                <li class="toggle-zielgruppen-navi"><a title="Zielgruppenmenü öffnen"></a>
+	
+	                    <div class="mobile-navi small-12 columns">
+	                        <div class="menubackground">
+	                            <!-- Placeholder small-12 wird gebraucht für Abstände -->
+	                            <div class="small-12 columns text-right"></div>
+	                            <ul class="">
+	                                
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </li>
+	         
+            </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="content">
+
+
+
+
+
+
+		
+
+
+
+<div class="row">
+    <div class="trennline print-only"></div>
+    <div class="small-12 medium-12 columns hide-for-print">
+    
+    	<div class="slider-div highlightbottomborder">
+    
+		<div class="upb-slider mode0">
+		
+	
+			
+			
+				
+					
+						
+			    	        
+			    	
+			
+				<div>
+					
+						<img title="Glasfasern aus der Optoelektronik in der Fakultät für Elektrotechnik, Informatik und Mathematik, Foto: Universität Paderborn" alt="Glasfasern aus der Optoelektronik in der Fakultät für Elektrotechnik, Informatik und Mathematik, Foto: Universität Paderborn
+
+" data-interchange="[https://www.eim.uni-paderborn.de/fileadmin/_processed_/5/5/csm_full_header_EIM_5fbd17b1ba.jpg, (small)], [https://www.eim.uni-paderborn.de/fileadmin/_processed_/5/5/csm_full_header_EIM_d5c85355cb.jpg, (medium)], [https://www.eim.uni-paderborn.de/fileadmin/_processed_/5/5/csm_full_header_EIM_d5c85355cb.jpg, (large)]" src="https://www.eim.uni-paderborn.de/fileadmin/_processed_/5/5/csm_full_header_EIM_d5c85355cb.jpg" />
+					                			
+	                		
+	                		
+	                        	
+	                        	<a href="https://www.eim.uni-paderborn.de/#imageInfoBox-0" class="cleanAnchor open-popup-link imageInfoButton " onclick="_paq.push(['trackEvent', 'content', 'SliderInfobuttonClick', '']);"><img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/infow20.png" alt="Bildinformationen anzeigen" /></a>
+	                        	
+				</div>
+								
+	            	
+	            	           	
+		</div>
+		
+		
+		<div id="imageInfoBox-0" class="white-popup mfp-hide imageInfoBox">
+					
+									
+	  				
+					
+	  					<p>Glasfasern aus der Optoelektronik in der Fakultät für Elektrotechnik, Informatik und Mathematik, Foto: Universität Paderborn
+
+</p>
+	  				
+	  				
+	  				
+		</div>
+		
+		
+		
+                
+	</div>                
+	
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="hide-for-small medium-12 columns hide-for-print">
+        <ul class="zielgruppennavigation">
+            
+        </ul>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="small-12 columns"><ul class="breadcrumb">
+        <li><a href="http://www.uni-paderborn.de/">Universität Paderborn</a></li><li><a href="http://www.uni-paderborn.de/fakultaeten/">Fakultäten</a></li><li><a href="https://www.eim.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'breadcrumbClick', 'Link Fakultät für Elektrotechnik, Informatik und Mathematik']);">Fakultät für Elektrotechnik, Informatik und Mathematik</a></li>
+    </ul></div>
+</div>
+
+
+
+
+
+<article>
+    <div class="row">
+    	<div class="medium-8 columns">
+
+			
+					<div class="panel article cutoffcorner highlightbottomborder">
+						
+
+
+	
+
+		<div id="c45532">
+		
+	        	
+		  			<h1>Fakultät EIM</h1>
+		  			
+		  			
+		  			
+		      	
+	      	
+	      	
+	      	<!-- Bild unterhalb zentriert -->
+			
+                    
+            
+            	 
+                	
+                    	
+
+							
+	        					
+									<div class="full-image">
+														
+	<a href="https://www.eim.uni-paderborn.de/fileadmin/fakultaet/404_EIM_CS_EI.jpg">
+		
+			<img id="I42527" src="https://www.eim.uni-paderborn.de/fileadmin/_processed_/7/9/csm_404_EIM_CS_EI_ac99d6ee06.jpg" width="600" height="399" alt="" />
+		
+	</a>
+
+                        	
+
+								
+							
+							
+						
+				
+						
+					
+						</div>
+                    		
+                    
+				
+			
+
+			
+	            <div class="article_text">
+					<h1>FEHLERSEITE - 404</h1>
+<p><a href="https://www.eim.uni-paderborn.de/">Zur Homepage</a></p>
+<p>&nbsp;</p>
+<p><strong>Bedauerlicherweise konnte die angeforderte Seite nicht gefunden werden.<br /> </strong></p>
+<p>Das könnte verschiedene Ursachen haben. Vielleicht</p><ul><li>haben Sie eine falsche URL in Ihren Browser eingegeben,<br /> </li><li>die angeforderte Seite wurde verschoben oder gelöscht oder</li><li>ist durch einen Login geschützt.</li></ul><p>Wenn Sie sich sicher sind, dass ein Fehler vorliegt, senden Sie bitte eine E-Mail an: <a href="javascript:linkTo_UnCryptMailto('ocknvq,yyygkoBwpk\/rcfgtdqtp0fg');">wwweim(at)uni-paderborn(dot)de</a></p>
+<hr />
+<p><br /><strong>Unfortunately the requested page was not found. </strong></p>
+<p>This could have several causes. May</p><ul><li>you entered a wrong url into your browser, </li><li>the requested page has moved or was deleted or</li><li>is protected by a login.</li></ul><p>If you are sure this is an error, please send an e-mail to: <a href="javascript:linkTo_UnCryptMailto('ocknvq,yyygkoBwpk\/rcfgtdqtp0fg');">wwweim(at)uni-paderborn(dot)de</a></p>                        
+					
+				</div>
+			
+                
+			
+		    	
+		    
+		    
+		</div>
+	 
+
+					</div>
+				
+        </div>
+
+        <div class="medium-4 columns columnElementsBelow">
+        
+        	
+        
+        	
+            <!-- THIS IS THE NAVIGATION -->
+            <div class="side-nav-right hide-for-print panel newsbox  highlightcategory highlightbottomborder">
+                <h5 class="cutoffcorner">Sie interessieren sich für:</h5>
+                <ul class="side-nav">
+			<li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/" id="menu871" onclick="_paq.push(['trackEvent', 'navigation', 'pageMenuClick', 'Link Studium']);">Studium</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/" id="menu771" onclick="_paq.push(['trackEvent', 'navigation', 'pageMenuClick', 'Link Forschung']);">Forschung</a></li><li><a href="https://www.eim.uni-paderborn.de/" id="menu731" onclick="_paq.push(['trackEvent', 'navigation', 'pageMenuClick', 'Link Fakultät']);">Fakultät</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/institute/" id="menu891" onclick="_paq.push(['trackEvent', 'navigation', 'pageMenuClick', 'Link Institute']);">Institute</a></li>
+                </ul>
+            </div>
+            <!-- /THIS IS THE NAVIGATION -->
+            	
+            
+        </div>
+    </div>
+</article>
+</div>
+
+
+
+
+
+<div class="row page-options hide-for-print">
+    <div class="columns medium-12">
+        <ul class="inline-list medium-list-right">
+            <li>
+                <a class="oben-icon right" href="https://www.eim.uni-paderborn.de/#top">Nach oben</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="claim">
+    <div class="row">
+        <div class="columns medium-6">
+            <p>Die Universität der Informationsgesellschaft</p>
+        </div>
+        <div class="medium-6 columns hide-for-print">
+            <ul class="inline-list medium-list-right icons-social">
+                <li><a href="https://de-de.facebook.com/unipaderborn" class="icon-facebook" onclick="_paq.push(['trackEvent', 'socialbuttons', 'quicklinkFacebookClick', 'https://de-de.facebook.com/unipaderborn']);"></a></li><li><a href="http://eim.uni-paderborn.de/rss.xml" class="icon-rss" onclick="_paq.push(['trackEvent', 'socialbuttons', 'quicklinkRssClick', 'http://eim.uni-paderborn.de/rss.xml']);"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-content de">
+        <div class="row">
+            <div class="columns small-12 medium-4">
+                <div class="has-form search-input hide-for-print">
+                    <div class="row">
+                        <form id="searchbox_000811303303555764227:ajae23nnrte-2" action="https://www.google.com/cse" accept-charset="utf-8">
+                        	<input type="hidden" name="cx" value="000811303303555764227:ajae23nnrte" />
+  				<input type="hidden" name="cof" value="FORID:0" />
+                            <div class="small-8 columns">
+                                <div class="kill-right-margin">
+                                    <input type="text" placeholder="Suchen (Google)" title="Suchen (Google)" name="q">
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="kill-left-margin">
+                                    <button type="submit" class="postfix button">
+                                        <img src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/lupe.png" alt="Suche starten" />
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <script type="text/javascript">
+  				var form = document.getElementById("searchbox_000811303303555764227:ajae23nnrte-2");
+  				form.action='https://www.eim.uni-paderborn.de/suche/';
+  				form.cof.value='FORID:11';
+			</script>
+                    </div>
+                </div>
+                <div class="contact-first">
+                    Warburger Straße 100 | 33098 Paderborn
+                    <br />Telefon: +49 5251 600
+                </div>
+                <div class="contact-second">
+                    Hotline Studierendensekretariat: +49 5251 60 50 40
+                </div>
+            </div>
+            <div class="columns small-12 medium-8 hide-for-print">
+                <div class="row">
+                    <div class="small-12 medium-12 large-3 columns">
+                        <ul class="footer-list">
+                            <li><a href="https://www.eim.uni-paderborn.de/fakultaet/studium/studienangebot/studiengaenge/" onclick="_paq.push(['trackEvent', 'navigation', 'footerMainClick', 'Link Studium']);">Studium</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/forschung/" onclick="_paq.push(['trackEvent', 'navigation', 'footerMainClick', 'Link Forschung']);">Forschung</a></li><li><a href="https://www.eim.uni-paderborn.de/" onclick="_paq.push(['trackEvent', 'navigation', 'footerMainClick', 'Link Fakultät']);">Fakultät</a></li><li><a href="https://www.eim.uni-paderborn.de/fakultaet/institute/" onclick="_paq.push(['trackEvent', 'navigation', 'footerMainClick', 'Link Institute']);">Institute</a></li>
+                        </ul>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <ul class="footer-list">
+                            
+                        </ul>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <ul class="footer-list">
+                            
+                        </ul>
+                    </div>
+                    <div class="small-12 medium-12 large-3 columns">
+                        <ul class="footer-list">
+                            <li><a href="https://www.eim.uni-paderborn.de/impressum/">Impressum</a></li><li><a href="http://www.uni-paderborn.de/quicklink/datenschutz">Datenschutzhinweise</a></li><li><a href="http://www.uni-paderborn.de/quicklink/webrelaunch">Webrelaunch</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-image">
+        </div>
+    </div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.uni-paderborn.de"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  _paq.push(['setVisitorCookieTimeout','604800']);
+  _paq.push(['setSessionCookieTimeout','1800']);
+  _paq.push(['setReferralCookieTimeout','604800']);
+  (function() {
+    var u="//piwik.uni-paderborn.de/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '131']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://piwik.uni-paderborn.de/piwik.php?idsite=131" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</footer>
+
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/foundation/js/foundation.min.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/hoverintent/jquery.hoverIntent.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/js/responsive-tables.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/js/slick.min.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/magnific/magnific.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/js/app.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/rx_shariff/Resources/Public/JavaScript/shariff.min.js?1490079718" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/libs/jquery-lazyload/jquery.lazyload.min.js?1517818519" type="text/javascript"></script>
+<script src="https://www.eim.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/js/gallery.js?1517818519" type="text/javascript"></script>
+
+
+</body>
+</html>
